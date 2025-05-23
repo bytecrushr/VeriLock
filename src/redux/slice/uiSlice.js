@@ -13,7 +13,7 @@ const uiSlice = createSlice({
     },
     setSidebarHam: (state, action) => {
         state.sidebarHam = action.payload;
-        console.log(state.sidebarHam)
+        
       },
 
   },
